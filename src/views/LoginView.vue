@@ -101,6 +101,7 @@ function login() {
     })
 }
 
+//เทสในเครื่องได้ แต่ไม่รู้ว่าทำไมพอ deploy เป็นเว็บแล้วเด้งครับ
 function googlelogin() {
   const auth = getAuth()
   const provider = new GoogleAuthProvider()
